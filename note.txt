@@ -52,3 +52,6 @@ nextjs tutorials and we are not using it inside our sanity folder
 * import {createClient} from "next-sanity" not found on node module 
 -> have to install  next-sanity using  
 [npm install next-sanity]
+
+=> there are two git repo in one file. 
+How do i delete and and leave one behind.
