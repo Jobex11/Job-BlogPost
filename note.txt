@@ -1,0 +1,54 @@
+    ==== MY BLOG PROJECTS =====
+time: 1:14:05
+Error Timer: 20:06
+continued 1:01:50
+2:6:51
+stopage: 2:25:35
+
+
+* CONNECTING SANITY TO NEXTJS APPLICATION.
+-> any time you made changes to the  next.config.js file 
+always go back to spin up the server.
+
+=> POST not properly working at 1:14:0
+ =====  CREATING THE POST SECTION  =====
+
+-> it ended with a bug: the  Post.body function isn't responding
+
+ -> there is fault in post.body or  react portable text itself.
+ =====  CREATING THE COMMENT SECTION   =======
+ time: 1:15:16 
+ we use the react hook form submission
+
+ 
+======  CREATING NEXT AUTHENTICATION   ========
+1:51:51
+
+===== ALLOWING ONLY AUTHENTICATED USER TO SEND COMMENTS  ======
+2:06:24
+
+
+   ======  NPM INSTALLATION  ======
+   * git clone https://github.com/noorjsdivs/testblog.git
+   * npm i
+   * npm -y create sanity@latest
+   * npm install next-sanity 
+   * npm install @portabletext/react @sanity/image-url 
+ {from npm -> next-sanity}
+   * npm i react-portable-text
+   * npm install  react-hook-from 
+   (to handle forms submission in our application)
+   * npm i @sanity/client
+   * npm install next-auth
+   (because we are using google authenticaton we will need to create an 
+   application on firebase.)
+   (you don't need to install firebase but you only need to create an application)
+   * sanity deploy (to create a url for sanity)
+
+ =====  ERROR AND DEBUGGING ======
+ * VITE CSS: is caused by sanity when we are using tailwind css in our 
+nextjs tutorials and we are not using it inside our sanity folder 
+-> copy and paste [tailwind.config.js] file into the sanity folder.
+* import {createClient} from "next-sanity" not found on node module 
+-> have to install  next-sanity using  
+[npm install next-sanity]
