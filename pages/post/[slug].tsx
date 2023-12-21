@@ -91,7 +91,7 @@ const Post = ({ post }: Props) => {
           </div>
           <div className="mt-10">
             <PortableText
-              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"}
+              {/*  dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"} */}
               projectId={
                 process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "gvstwn6q"
               }
@@ -245,7 +245,6 @@ const Post = ({ post }: Props) => {
             </div>
           </div>
         )}
-
       </div>
       <Footer />
     </div>
