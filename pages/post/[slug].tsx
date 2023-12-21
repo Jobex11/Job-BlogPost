@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 import { urlFor } from "../../sanity";
 import { sanityClient } from "../../sanity";
 import { Post } from "../../typings";
-import { PortableText } from "@portabletext/react";
+import PortableText from "react-portable-text";
 import { useForm, SubmitHandler } from "react-hook-form";
 //import comment from "../../blog/schemas/comment";
 import { useSession } from "next-auth/react";
@@ -91,7 +91,7 @@ const Post = ({ post }: Props) => {
           </div>
           <div className="mt-10">
             <PortableText
-              {/*  dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"} */}
+              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"}
               projectId={
                 process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "gvstwn6q"
               }
