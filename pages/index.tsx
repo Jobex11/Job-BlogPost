@@ -6,7 +6,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from "../typings";
-import post from "../blog/schemas/post";
 import Image from "next/image";
 import Link from "next/link";
 interface Props {
